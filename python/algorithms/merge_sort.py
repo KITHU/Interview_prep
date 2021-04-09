@@ -36,5 +36,8 @@ def merge(left, right):
         result.append(right.pop(0))
     
     return result
-
-print(merge_sort([34,8,1,7,6,8]))
+arr = [34,8,1,7,6,8]
+print("==="*30)
+print("unsorted array: ",arr)
+print("merge_sort result: ", merge_sort([34,8,1,7,6,8]))
+print("==="*30)
