@@ -1,10 +1,14 @@
 # **INTERVIEW PREP**
 
 ### **LANGUAGES**
-- Python3
-- JavaScript
-
+```
+ - Python3
+ - JavaScript
+```
 ### **Topics**
+```
  - data structures
  - algorithms
  - dynamic programing
+
+ ```
