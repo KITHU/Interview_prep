@@ -1,4 +1,4 @@
-"find the n-th fib number"
+"Find the n-th fibonancci number"
 
 def fib(n, memo={}):
     if (n in memo):
