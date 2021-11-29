@@ -2,6 +2,15 @@
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 print(fruits)
 
+fruits1 = list()
+fruits1.append("oranges")
+fruits1.append("apples")
+fruits1.append("pear")
+print(fruits1)
+
+fruits2 = ["oranges"] * 30
+print(fruits2)  # list of 30 elements which are oranges
+
 
 # list.append(x)
 # Add an item to the end of the list. Equivalent to a[len(a):] = [x].
