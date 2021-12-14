@@ -10,5 +10,4 @@
  - data structures
  - algorithms
  - dynamic programing
-
  ```
