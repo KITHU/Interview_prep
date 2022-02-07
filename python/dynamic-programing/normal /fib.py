@@ -5,6 +5,7 @@ def fib(n):
         return 1
     return fib(n-1) + fib(n-2)
 
+
 print(fib(10))
 
 
@@ -22,4 +23,6 @@ def first_fib_nums(n):
            j = k
            k=k+l
     return fibarr 
+
+
 print(first_fib_nums(10))
