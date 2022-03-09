@@ -13,3 +13,18 @@
 - show tables
 - mysqldumb -u username -p db-name > dump_name.sql
 - mysqldumb -u username -p new-db-name < dump_name.sql
+
+## Copy from server to local
+
+```
+copy a file named file_dump.sql from server home directory to local machine current directory
+
+```
+
+- scp user@ip_address:~/file_dump.sql ./
+
+```
+copy a file named file_dump.sql from local  machine to server
+
+```
+- scp ./file_dump.sql user@ip_address:~/
